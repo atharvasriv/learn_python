@@ -6,7 +6,9 @@ print("Welcome to the PAN card condition checker!")
 
 age = int(input("Please enter your age here: "))
 
-if(age >= 21):
-	print("You are eligible to apply for a PAN card")
+if age >= 21:
+    print("You are eligible to apply for a PAN card")
+elif age <= 0:
+    print("Please enter a valid age.")
 else:
-	print("You are not eligible to apply for a PAN card")
+    print("You are not eligible to apply for a PAN card")
