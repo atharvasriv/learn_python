@@ -2,7 +2,7 @@
 
 name = input("Please enter your name: ")
 
-while name == '':
+while not bool(name):
     print("You have not entered a name.")
     name = input("Please enter your name: ")
 
