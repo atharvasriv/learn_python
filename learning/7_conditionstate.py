@@ -6,7 +6,6 @@
 num = float(input(
     "Please enter a number: "
 ))
-
 print(
     "Positive" if num >= 0 else "Negative"
 )
